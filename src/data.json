@@ -1,0 +1,40 @@
+{
+  "projects": [
+    {
+      "name": "Portfolio Website",
+      "tech": "Vue-2",
+      "image_source": "reaktor-assingment.jpg",
+      "learned": "Animation, minimalistic UI desing",
+      "source": "https://github.com/anttiriski/portfolio-website"
+    },
+    {
+      "name": "Reaktor junior dev assingment",
+      "tech": "Vue-2, Vue-router, Bad-api",
+      "image_source": "reaktor-assingment.jpg",
+      "learned": "Firebase and backend, API-calls",
+      "demo": "https://fast-fortress-51808.herokuapp.com/",
+      "source": "https://github.com/anttiriski/reaktor-assingment"
+    },
+    {
+      "name": "Recipebook",
+      "tech": "MongoDB, Express, React & Node",
+      "image_source": "recipebook.jpg",
+      "learned": "Database integration, backend-development & how to build node.js applications",
+      "source": "https://github.com/anttiriski/reseptikirja"
+    },
+    {
+      "name": "Athene Job-bot",
+      "tech": "Python",
+      "image_source": "job-bot.jpg",
+      "learned": "Python & libraries, automation, webscraping & env-variables",
+      "source": "https://github.com/athenekilta/job-bot"
+    },
+    {
+      "name": "Tori.fi bot",
+      "tech": "Python",
+      "image_source": "tori-bot.jpg",
+      "learned": "Python & webscraping",
+      "source": "https://github.com/anttiriski/Tori-botti"
+    }
+  ]
+}
