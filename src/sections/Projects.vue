@@ -58,7 +58,7 @@ export default {
   max-width: 1200px;
 }
 .project-grid > div {
-  margin: 30px;
+  margin: 10px;
 }
 .projects-container {
   background-color: #f9f9ff;

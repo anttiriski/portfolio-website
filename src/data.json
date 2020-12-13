@@ -3,9 +3,10 @@
     {
       "name": "Portfolio Website",
       "tech": "Vue-2",
-      "image_source": "reaktor-assingment.jpg",
+      "image_source": "portfolio-website.jpg",
       "learned": "Animation, minimalistic UI desing",
-      "source": "https://github.com/anttiriski/portfolio-website"
+      "source": "https://github.com/anttiriski/portfolio-website",
+      "demo": "http://www.kenkku.fi"
     },
     {
       "name": "Reaktor junior dev assingment",
@@ -14,6 +15,14 @@
       "learned": "Firebase and backend, API-calls",
       "demo": "https://fast-fortress-51808.herokuapp.com/",
       "source": "https://github.com/anttiriski/reaktor-assingment"
+    },
+    {
+      "name": "Turku-polkupyörät",
+      "tech": "React & Leaflet-map",
+      "image_source": "polkkarit.jpg",
+      "learned": "React, API-fetch & displaying information from it",
+      "demo": "https://polkkarit.netlify.app/",
+      "source": "https://github.com/anttiriski/turku-polkkarit"
     },
     {
       "name": "Recipebook",
