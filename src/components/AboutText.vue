@@ -1,18 +1,21 @@
 <template>
-  <div class="about-text">
-    <div>
-      <h2 class="about-title">About Me</h2>
+  <div class="about">
+    <h2 class="about-title">About Me</h2>
+    <div class="about-text">
+      <div>
+        <p class="about-p">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A eveniet
+          maiores dolore. Facilis natus modi commodi voluptatum at ipsam id.
+        </p>
+        <ul class="about-info">
+          <li><span>Name:</span><span>Antti Riski</span></li>
+          <li><span>Date of birth:</span><span>January 16, 1999</span></li>
+          <li><span>Email:</span><span>antti.riski@aalto.fi</span></li>
+          <li><span>Phone</span><span>0403522771</span></li>
+        </ul>
+      </div>
+      <img id="img" src="../assets/about.jpg" alt="about-image" />
     </div>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. A eveniet maiores
-      dolore. Facilis natus modi commodi voluptatum at ipsam id.
-    </p>
-    <ul class="about-info">
-      <li><span>Name:</span><span>Antti Riski</span></li>
-      <li><span>Date of birth:</span><span>January 16, 1999</span></li>
-      <li><span>Email:</span><span>antti.riski@aalto.fi</span></li>
-      <li><span>Phone</span><span>0403522771</span></li>
-    </ul>
   </div>
 </template>
 
@@ -23,21 +26,33 @@ export default {
 </script>
 
 <style>
-.about-text {
-  text-align: left;
-  margin-left: 4rem;
+.about {
+  display: flex column;
+  padding-left: 100px;
 }
-
+.about-text {
+  display: flex;
+  text-align: left;
+}
 .about-info {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#img {
+  max-height: 300px;
+  display: none;
+  margin: 20px;
 }
 .about-title {
   color: #222222;
   font-weight: 700;
   font-size: 45px;
   position: relative;
+  text-align: left;
 }
 .about-title::after {
   position: absolute;
@@ -65,16 +80,19 @@ export default {
   .about-title {
     text-align: center;
   }
-  .about-text {
-    margin: auto;
-    text-align: center;
-    max-width: 30rem;
-  }
   .about-title::after {
     right: 0;
   }
-  .about-info li {
-    justify-content: center;
+  .about {
+    padding: 0;
+  }
+  #img {
+    display: block;
+  }
+}
+@media screen and (max-width: 550px) {
+  #img {
+    display: none;
   }
 }
 </style>

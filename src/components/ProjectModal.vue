@@ -169,6 +169,7 @@ export default {
 .project-title {
   font-weight: 700;
   font-size: 23px;
+  text-align: left;
 }
 .project-information {
   display: flex;

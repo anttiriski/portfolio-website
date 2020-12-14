@@ -22,7 +22,7 @@ export default {
   max-width: 90rem;
   margin: auto;
   margin-bottom: 40px;
-  padding: 40px;
+  padding: 0px 40px;
 }
 .about-image {
   max-width: 100%;
