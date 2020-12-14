@@ -34,7 +34,7 @@ export default {
   color: #222222;
   font-weight: 700;
   font-size: 45px;
-  line-height: 44px;
+  line-height: 50px;
   position: relative;
 }
 .project-header::after {

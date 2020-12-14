@@ -32,6 +32,9 @@ export default {
   .row .about-img {
     display: none;
   }
+  .animation {
+    margin-top: 80px;
+  }
 }
 .caption {
   position: relative;
@@ -47,7 +50,9 @@ export default {
   animation-delay: 1s;
   transition: all 15s ease 2s;
   user-select: none;
+  z-index: 2;
 }
+
 @keyframes jumping {
   20% {
     transform: translateY(20px) scale(0.8);
@@ -56,13 +61,13 @@ export default {
     transform: translate(10px, 30px) scale(0.6);
   }
   60% {
-    transform: translate(-30px, -40px) scale(0.7);
+    transform: translate(-30px, 60px) scale(0.7);
   }
   80% {
-    transform: translate(-20wpx, 40px) scale(0.6);
+    transform: translate(20px, 40px) scale(1.2);
   }
   100% {
-    transform: translate(20px, -10px) scale(0.8);
+    transform: translate(-20px, 10px) scale(0.8);
   }
 }
 </style>

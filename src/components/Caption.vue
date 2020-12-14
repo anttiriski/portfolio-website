@@ -38,6 +38,7 @@ export default {
 .captions {
   text-align: left;
   max-width: 40rem;
+  margin-top: 64px;
 }
 
 .name {
