@@ -54,8 +54,7 @@ export default {
   display: grid;
   justify-content: center;
   margin: auto;
-  grid-template-columns: 1fr 1fr;
-  max-width: 1200px;
+  grid-template-columns: fit-content(25%) fit-content(25%) fit-content(25%);
 }
 .project-grid > div {
   margin: 10px;
@@ -65,9 +64,15 @@ export default {
   padding: 10px 0px;
 }
 
+@media screen and (max-width: 1575px) {
+  .project-grid {
+    grid-template-columns: fit-content(40%) fit-content(40%);
+  }
+}
+
 @media screen and (max-width: 1000px) {
   .project-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: fit-content(80%);
   }
 }
 </style>

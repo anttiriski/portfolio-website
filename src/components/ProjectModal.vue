@@ -130,10 +130,14 @@ export default {
 .project-content {
   cursor: pointer;
   position: relative;
+  display: flex;
+  flex-direction: column;
   box-shadow: 0 8px 10px 0px rgba(0, 0, 0, 0.35);
   border-radius: 10px;
   transition: 0.3s;
   background-color: white;
+  height: 100%;
+  flex: 1;
 }
 
 .project-content:hover {
@@ -176,6 +180,8 @@ export default {
   justify-content: space-between;
   margin: 0rem 2rem;
   color: #e45447;
+  flex: 1;
+  align-items: center;
 }
 
 .project-links {
