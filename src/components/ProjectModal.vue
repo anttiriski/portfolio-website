@@ -141,7 +141,17 @@ export default {
 }
 
 .project-content:hover {
-  transform: translateY(-3px);
+  transform: scale(1.02);
+}
+
+.project-content:hover .project-information {
+  background-color: #e45447;
+  border-radius: 10px;
+  color: white;
+}
+
+.project-content:hover .project-links a {
+  fill: white;
 }
 
 .image img {
@@ -178,15 +188,17 @@ export default {
 .project-information {
   display: flex;
   justify-content: space-between;
-  margin: 0rem 2rem;
+  padding: 0rem 2rem;
   color: #e45447;
   flex: 1;
   align-items: center;
+  transition: 0.3s;
 }
 
 .project-links {
   display: flex;
   align-items: center;
+  transition: 0.3s;
 }
 .project-links a {
   margin: 0 0.4rem;

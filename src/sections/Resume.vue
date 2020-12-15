@@ -69,19 +69,24 @@ export default {
 .grid-container {
   display: grid;
   grid-template-columns: 0.3fr 1fr 1fr 1fr 1fr 0.3fr;
-  grid-template-rows: 0.6fr 0.4fr 1fr 0.3fr;
   gap: 20px 20px;
   grid-template-areas:
     ". Work Work Education Education ."
-    ". Work Work Education Education ."
-    ". Expertises Expertises Expertises Expertises ."
     ". Expertises Expertises Expertises Expertises .";
 }
 .card {
   text-align: left;
-  padding: 2rem;
+  padding: 1rem 2rem;
   border-radius: 10px;
   box-shadow: 0 8px 10px 0px rgba(0, 0, 0, 0.35);
+  transition: 0.3s;
+}
+.card:hover {
+  background-color: #e45447;
+  color: white;
+}
+.card:hover .highlight {
+  color: white;
 }
 .Work {
   grid-area: Work;
@@ -106,6 +111,7 @@ export default {
 }
 .paragraph {
   text-align: left;
+  margin: 0;
 }
 .card-header {
   margin: 0;
