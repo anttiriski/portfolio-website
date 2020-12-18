@@ -9,15 +9,15 @@
         :backDelay="2500"
         :loop="true"
         :strings="[
-          'Software Developer',
-          'Student',
-          'UI desinger',
-          'Snowboarder',
-          'Expert in the making',
+          'a Software Developer',
+          'a Student',
+          'an UI desinger',
+          'a Snowboarder',
+          'an Expert in the making',
         ]"
       >
         <h2>
-          I'm a(n)
+          I'm
           <span class="typing"></span>
         </h2>
       </vue-typed-js>

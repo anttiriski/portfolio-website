@@ -1,8 +1,6 @@
 <template>
   <div class="resume-container">
-    <div class="section-title">
-      <h2>Resume</h2>
-    </div>
+    <h2 class="section-title">Resume</h2>
     <div class="card">
       <h2 class="card-title">Education</h2>
       <div class="card-content">
@@ -64,15 +62,15 @@ export default {
 </script>
 
 <style>
-.section-title h2 {
+.section-title {
   color: #222222;
   font-weight: 700;
   font-size: 45px;
   line-height: 50px;
   position: relative;
-  margin-bottom: 60px;
+  margin: 0 0 2rem 0;
 }
-.section-title h2::after {
+.section-title::after {
   position: absolute;
   content: "";
   height: 3px;
@@ -100,10 +98,6 @@ export default {
   margin: auto;
 }
 
-.card:last-child {
-  margin-bottom: 50px;
-}
-
 .card-title {
   text-align: left;
   position: relative;
@@ -118,7 +112,7 @@ export default {
 }
 
 .resume-container {
-  padding: 0rem 2rem;
+  padding: 2rem 2rem;
 }
 .video {
   text-decoration: none;

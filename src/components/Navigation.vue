@@ -4,9 +4,8 @@
     <ul class="navigation">
       <li><a class="nav-link" href="#Home">Home</a></li>
       <li><a class="nav-link" href="#About">About</a></li>
-      <li><a class="nav-link" href="#Resume">Resume</a></li>
       <li><a class="nav-link" href="#Projects">Projects</a></li>
-      <li><a class="nav-link" href="#Contact">Contact</a></li>
+      <li><a class="nav-link" href="#Resume">Resume</a></li>
     </ul>
   </div>
   <div v-else id="navbar">
@@ -24,13 +23,10 @@
           <a @click="handleClick" class="nav-link" href="#About">About</a>
         </li>
         <li>
-          <a @click="handleClick" class="nav-link" href="#Resume">Resume</a>
-        </li>
-        <li>
           <a @click="handleClick" class="nav-link" href="#Projects">Projects</a>
         </li>
         <li>
-          <a @click="handleClick" class="nav-link" href="#Contact">Contact</a>
+          <a @click="handleClick" class="nav-link" href="#Resume">Resume</a>
         </li>
       </ul>
     </div>
