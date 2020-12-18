@@ -61,7 +61,7 @@ export default {
 }
 .projects-container {
   background-color: #f9f9ff;
-  padding: 10px 0px;
+  padding: 10px 0px 60px 0px;
 }
 
 @media screen and (max-width: 1575px) {

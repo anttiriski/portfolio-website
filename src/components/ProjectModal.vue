@@ -4,7 +4,7 @@
       <div class="modal-mask" @click="closeModal"></div>
       <div class="modal-content">
         <span @click="closeModal" class="exit">&#10005;</span>
-        <h2>{{ project.name }}</h2>
+        <h2 class="modal-project-name">{{ project.name }}</h2>
         <div class="image">
           <img
             :src="require(`@/assets/${project.image_source}`)"
@@ -28,12 +28,14 @@
       </div>
     </div>
     <div class="project-content">
-      <img
-        class="project-image"
-        :src="require(`@/assets/${project.image_source}`)"
-        alt="Project image"
-        @click="showModal = true"
-      />
+      <div class="image-zoom">
+        <img
+          class="project-image"
+          :src="require(`@/assets/${project.image_source}`)"
+          alt="Project image"
+          @click="showModal = true"
+        />
+      </div>
       <div class="project-information">
         <p @click="showModal = true" class="project-title">
           {{ project.name }}
@@ -125,6 +127,11 @@ export default {
   max-width: 100%;
   display: block;
   border-radius: 10px;
+  transition: 0.3s;
+}
+
+.image-zoom {
+  overflow: hidden;
 }
 
 .project-content {
@@ -140,18 +147,18 @@ export default {
   flex: 1;
 }
 
-.project-content:hover {
-  transform: scale(1.02);
-}
-
 .project-content:hover .project-information {
   background-color: #e45447;
-  border-radius: 10px;
+  border-radius: 0px 0px 10px 10px;
   color: white;
 }
 
 .project-content:hover .project-links a {
   fill: white;
+}
+
+.project-content:hover .project-image {
+  scale: 1.05;
 }
 
 .image img {
@@ -184,6 +191,22 @@ export default {
   font-weight: 700;
   font-size: 23px;
   text-align: left;
+  position: relative;
+}
+.modal-project-name {
+  position: relative;
+}
+.modal-project-name::after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 100%;
+  bottom: -13px;
+  background-color: #e45447;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 100px;
 }
 .project-information {
   display: flex;
