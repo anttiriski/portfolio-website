@@ -5,6 +5,7 @@
     <About id="About" />
     <Projects id="Projects" />
     <Resume id="Resume" />
+    <Hire id="Hire" />
     <Footer />
   </div>
 </template>
@@ -16,6 +17,7 @@ import About from "./sections/About";
 import Resume from "./sections/Resume";
 import Projects from "./sections/Projects";
 import Footer from "./sections/Footer";
+import Hire from "./sections/Hire";
 
 export default {
   name: "App",
@@ -26,6 +28,7 @@ export default {
     Resume,
     Projects,
     Footer,
+    Hire,
   },
 };
 </script>
