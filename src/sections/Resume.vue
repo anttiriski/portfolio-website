@@ -13,9 +13,17 @@
         </h2>
         <h4>Aalto-university</h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis
-          laboriosam cum voluptatum esse placeat possimus saepe incidunt
-          provident facere aliquam ex, modi accusantium et labore quas eum sint.
+          I'm in love with this study program. Information networks connects
+          technology, business & people together. I very much enjoy my time
+          here, especially our guild Athene. One of our students made a very
+          good
+          <a
+            href="https://www.youtube.com/watch?v=cEQvHy4Tevk&ab_channel=AaltoInformaatioverkostot"
+            target="_blank"
+            class="video"
+            >video</a
+          >
+          about Athene, go check it out!! (thanks Iida)
         </p>
       </div>
     </div>
@@ -26,9 +34,14 @@
         <h2 class="highlight">Software developer</h2>
         <h4>Oikeat Oliot Oy</h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis
-          laboriosam cum voluptatum esse placeat possimus saepe incidunt
-          provident facere aliquam ex, modi accusantium et labore quas eum sint.
+          I worked as a junior designer-programmer on an in-house development
+          project. Our team developed a prototype of a smart office remote
+          control for a portable device.
+        </p>
+        <p>
+          During the summer, I really learned a lot about UI desing, UX desing
+          and front-end programming, as well as essential skills in team-work
+          and communications in organisation culture.
         </p>
       </div>
     </div>
@@ -101,9 +114,21 @@ export default {
   border-radius: 10px;
   margin-left: 40px;
   background-color: #f9f9ff;
+  transition: 0.3s;
 }
 
 .resume-container {
   padding: 0rem 2rem;
+}
+.video {
+  text-decoration: none;
+  color: #e45447;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+  .card-content {
+    padding: 1rem;
+  }
 }
 </style>

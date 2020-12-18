@@ -4,14 +4,16 @@
     <div class="about-text">
       <div>
         <p class="about-p">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. A eveniet
-          maiores dolore. Facilis natus modi commodi voluptatum at ipsam id.
+          I want to create something that really affects other people, and
+          create it in clean, beautiful, interactive, minimalistic, responsive &
+          user friendly way. I want to help others, if they need it; I really
+          have the joy of giving.
         </p>
         <ul class="about-info">
           <li><span>Name:</span><span>Antti Riski</span></li>
           <li><span>Date of birth:</span><span>January 16, 1999</span></li>
           <li><span>Email:</span><span>antti.riski@aalto.fi</span></li>
-          <li><span>Phone</span><span>0403522771</span></li>
+          <li><span>Phone</span><span>040 3522771</span></li>
         </ul>
       </div>
       <img id="img" src="../assets/about.jpg" alt="about-image" />
@@ -40,6 +42,7 @@ export default {
   padding: 0;
   display: flex;
   flex-direction: column;
+  font-size: 1.1rem;
 }
 
 #img {
