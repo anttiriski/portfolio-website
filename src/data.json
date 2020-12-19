@@ -32,6 +32,12 @@
       "source": "https://github.com/anttiriski/reseptikirja"
     },
     {
+      "name": "Chat-app",
+      "tech": "Firebase, React & React-hooks",
+      "image_source": "chat-app.jpg",
+      "learned": "Realtime chat application using React"
+    },
+    {
       "name": "Athene Job-bot",
       "tech": "Python",
       "image_source": "job-bot.jpg",
