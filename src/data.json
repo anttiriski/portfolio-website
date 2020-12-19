@@ -2,14 +2,16 @@
   "projects": [
     {
       "name": "Portfolio Website",
+      "description": "My portfolio webpage, heck yeeah. This webpage highlights all my skills, and projects. Go check them out, they are awesome!",
       "tech": "Vue-2",
       "image_source": "portfolio-website.jpg",
-      "learned": "Animation, minimalistic UI desing",
+      "learned": "Minimalistic, responsive & user-friendly UI desing.",
       "source": "https://github.com/anttiriski/portfolio-website",
       "demo": "http://www.kenkku.fi"
     },
     {
       "name": "Reaktor junior dev assingment",
+      "description": "A (made up) customer needed a simple web app to use in their warehouses. I came up with this desing, that fetches data from API and lists it explicitly.",
       "tech": "Vue-2, Vue-router, Bad-api",
       "image_source": "reaktor-assingment.jpg",
       "learned": "Firebase and backend, API-calls",
@@ -18,27 +20,31 @@
     },
     {
       "name": "Turku-polkupyörät",
+      "description": "A simple website that shows Turku town-bicycle positions in stations realtime. One of the first projects I made myself.",
       "tech": "React & Leaflet-map",
       "image_source": "polkkarit.jpg",
-      "learned": "React, API-fetch & displaying information from it",
+      "learned": "React, API-fetch & displaying information from it.",
       "demo": "https://polkkarit.netlify.app/",
       "source": "https://github.com/anttiriski/turku-polkkarit"
     },
     {
       "name": "Recipebook",
+      "description": "I made myself a recipebook! Not anything special here, but it works. The plan is that only authorized people can edit the recipes, and others could read them. WIP-project.",
       "tech": "MongoDB, Express, React & Node",
       "image_source": "recipebook.jpg",
-      "learned": "Database integration, backend-development & how to build node.js applications",
+      "learned": "Database integration, backend-development & how to build node.js applications.",
       "source": "https://github.com/anttiriski/reseptikirja"
     },
     {
       "name": "Chat-app",
+      "description": "Simple website that uses react-hooks and firebase-library to update the content in realtime. Kinda cool project in my opinion. No source code in github because I am scared that I leak my api-keys :D",
       "tech": "Firebase, React & React-hooks",
       "image_source": "chat-app.jpg",
       "learned": "Realtime chat application using React"
     },
     {
       "name": "Athene Job-bot",
+      "description": "A simple webscraper, that sends telegram messages to our guild's job-hunt group, if a new job positions are found. I very much enjoyed this project!",
       "tech": "Python",
       "image_source": "job-bot.jpg",
       "learned": "Python & libraries, automation, webscraping & env-variables",
@@ -46,6 +52,7 @@
     },
     {
       "name": "Tori.fi bot",
+      "description": "Again, a simple webscraper that searches for products in Tori.fi. I got the idea for it, because my mom searched for a new piano -> 'That's a time waste, lets automate!' -Me",
       "tech": "Python",
       "image_source": "tori-bot.jpg",
       "learned": "Python & webscraping",

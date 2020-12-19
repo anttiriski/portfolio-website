@@ -81,7 +81,7 @@ export default {
   list-style: none;
   display: flex;
   align-items: center;
-  margin: 0px 60px 0px 0px;
+  margin: 0 4rem 0 0;
   justify-content: flex-end;
   height: 4rem;
 }
@@ -94,6 +94,7 @@ export default {
   text-decoration: none;
   color: black;
 }
+
 .bar1,
 .bar2,
 .bar3 {
@@ -103,6 +104,7 @@ export default {
   margin: 3px 0;
   transition: 0.4s;
 }
+
 .menuContainer {
   cursor: pointer;
   margin: 10px 20px;
@@ -123,6 +125,7 @@ export default {
 .change .bar3 {
   transform: rotate(45deg) translate(-8px, -8px);
 }
+
 .mobile-navigation {
   list-style: none;
   margin: 0;
@@ -131,6 +134,7 @@ export default {
   box-shadow: 0 6px 5px 0px rgba(0, 0, 0, 0.35);
   height: 100vh;
 }
+
 .mobile-navigation li {
   font-size: 1.5rem;
   padding: 20px 0px;

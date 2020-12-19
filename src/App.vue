@@ -40,6 +40,7 @@ body {
   margin: 0px;
   scroll-behavior: smooth;
 }
+
 #app {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   -webkit-font-smoothing: antialiased;

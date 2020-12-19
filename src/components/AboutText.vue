@@ -51,9 +51,8 @@ export default {
   margin: 20px;
 }
 .about-title {
-  color: #222222;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 2.75rem;
   position: relative;
   text-align: left;
 }

@@ -2,7 +2,7 @@
   <div class="caption-container">
     <div class="captions">
       <span class="subheader">Hey! I am</span>
-      <h1 class="name">Antti Riski !</h1>
+      <h1 class="caption-header">Antti Riski !</h1>
       <vue-typed-js
         :typeSpeed="80"
         :backSpeed="40"
@@ -12,14 +12,10 @@
           'a Software Developer',
           'a Student',
           'an UI desinger',
-          'a Snowboarder',
           'an Expert in the making',
         ]"
       >
-        <h2>
-          I'm
-          <span class="typing"></span>
-        </h2>
+        <h2>I'm <span class="typing"></span></h2>
       </vue-typed-js>
       <p class="caption-text">
         I'm everything that is said above, and beyond. I prefer active
@@ -45,25 +41,24 @@ export default {
 .captions {
   text-align: left;
   max-width: 40rem;
-  margin-top: 64px;
 }
 
-.name {
-  font-size: 4rem;
+.caption-header {
+  font-size: 3.5rem;
   margin: 0;
 }
 
 .subheader {
-  font-size: 1.6rem;
+  font-size: 1.25rem;
   text-transform: uppercase;
 }
 
 .typing {
   color: #e45447;
-  font-size: 30px;
-  margin-bottom: 30px;
+  font-size: 1.6rem;
 }
+
 .caption-container {
-  margin: 3rem;
+  margin: 2.6rem;
 }
 </style>

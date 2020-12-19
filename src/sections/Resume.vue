@@ -18,7 +18,7 @@
           <a
             href="https://www.youtube.com/watch?v=cEQvHy4Tevk&ab_channel=AaltoInformaatioverkostot"
             target="_blank"
-            class="video"
+            class="highlight"
             >video</a
           >
           about Athene, go check it out!! (thanks Iida)
@@ -86,11 +86,7 @@ export default {
 .highlight {
   color: #e45447;
   font-weight: 700;
-}
-
-.paragraph {
-  max-width: 400px;
-  margin: auto;
+  text-decoration: none;
 }
 
 .card {
@@ -102,6 +98,7 @@ export default {
   text-align: left;
   position: relative;
 }
+
 .card-content {
   text-align: left;
   padding: 2rem;
@@ -112,12 +109,7 @@ export default {
 }
 
 .resume-container {
-  padding: 2rem 2rem;
-}
-.video {
-  text-decoration: none;
-  color: #e45447;
-  font-weight: 600;
+  padding: 2rem;
 }
 
 @media screen and (max-width: 600px) {

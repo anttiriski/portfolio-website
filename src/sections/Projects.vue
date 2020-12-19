@@ -16,6 +16,7 @@
 <script>
 import ProjectModal from "../components/ProjectModal";
 import data from "../data.json";
+
 export default {
   name: "Projects",
   data() {
@@ -30,13 +31,18 @@ export default {
 </script>
 
 <style>
-.project-header {
-  color: #222222;
-  font-weight: 700;
-  font-size: 45px;
-  line-height: 50px;
-  position: relative;
+.projects-container {
+  background-color: #f9f9ff;
+  padding: 3rem 0rem;
 }
+
+.project-header {
+  font-weight: 700;
+  font-size: 2.75rem;
+  position: relative;
+  margin-top: 0;
+}
+
 .project-header::after {
   position: absolute;
   content: "";
@@ -53,15 +59,8 @@ export default {
 .project-grid {
   display: grid;
   justify-content: center;
-  margin: auto;
   grid-template-columns: fit-content(25%) fit-content(25%) fit-content(25%);
-}
-.project-grid > div {
-  margin: 10px;
-}
-.projects-container {
-  background-color: #f9f9ff;
-  padding: 10px 0px 60px 0px;
+  grid-gap: 1rem;
 }
 
 @media screen and (max-width: 1575px) {
@@ -72,7 +71,7 @@ export default {
 
 @media screen and (max-width: 1000px) {
   .project-grid {
-    grid-template-columns: fit-content(80%);
+    grid-template-columns: fit-content(85%);
   }
 }
 </style>

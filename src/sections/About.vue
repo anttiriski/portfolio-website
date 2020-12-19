@@ -1,6 +1,6 @@
 <template>
   <div class="about-section">
-    <img class="about-image" src="../assets/about.jpg" alt="" />
+    <img class="about-image" src="../assets/about.jpg" alt="Image of me" />
     <AboutText />
   </div>
 </template>
@@ -24,6 +24,7 @@ export default {
   margin-bottom: 40px;
   padding: 0px 40px;
 }
+
 .about-image {
   max-width: 100%;
   max-height: 500px;

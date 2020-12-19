@@ -2,7 +2,7 @@
   <div class="hire-container">
     <h1 class="hire-title">HIRE ME</h1>
     <p class="hire-information">Take a risk, I promise it is worth it.</p>
-    <p class="take-a-risk">Ota Riski</p>
+    <p class="take-a-risk">OTA RISKI</p>
   </div>
 </template>
 
@@ -31,13 +31,12 @@ export default {
 
 .hire-information {
   font-weight: 600;
-  font-size: 1rem;
   margin: 2rem 0rem;
 }
 
 .take-a-risk {
-  text-transform: uppercase;
-  font-size: 12px;
+  opacity: 0;
+  transition: 0.3s;
 }
 
 .hire-title::after {
@@ -50,5 +49,9 @@ export default {
   margin: 0 auto;
   left: 0;
   right: 0;
+}
+
+.hire-container:hover .take-a-risk {
+  opacity: 1;
 }
 </style>
