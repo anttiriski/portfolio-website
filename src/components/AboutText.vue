@@ -50,12 +50,14 @@ export default {
   display: none;
   margin: 20px;
 }
+
 .about-title {
   font-weight: 700;
   font-size: 2.75rem;
   position: relative;
   text-align: left;
 }
+
 .about-title::after {
   position: absolute;
   content: "";
